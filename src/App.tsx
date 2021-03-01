@@ -18,7 +18,7 @@ export type AnsType = {
 function App() {
   useEffect(() => {
     initNotification()
-
+// triggering nitification function
   }, [])
 
   const [loading, setLoading] = useState(false);
